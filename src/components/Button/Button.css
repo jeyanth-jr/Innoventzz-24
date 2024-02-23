@@ -1,0 +1,84 @@
+@keyframes wiggle {
+    0% {
+        -webkit-transform: skewX(24deg);
+        filter: hue-rotate(0deg);
+    }
+
+    10% {
+        -webkit-transform: skewX(-8deg);
+    }
+
+    20% {
+        -webkit-transform: skewX(55deg);
+    }
+
+    30% {
+        -webkit-transform: skewX(-90deg);
+    }
+
+    40% {
+        -webkit-transform: skewX(29deg);
+    }
+
+    50% {
+        -webkit-transform: skewX(-90deg);
+    }
+
+    60% {
+        -webkit-transform: skewX(3deg);
+    }
+
+    70% {
+        -webkit-transform: skewX(-2deg);
+    }
+
+    80% {
+        -webkit-transform: skewX(1deg);
+    }
+
+    90% {
+        -webkit-transform: skewX(10deg);
+    }
+
+    100% {
+        -webkit-transform: skewX(0deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.main__button {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 0.5px solid var(--primary-color);
+    outline: none;
+    transition: 1s ease-in-out;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: var(--accent-color);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.main__button:hover {
+    animation: wiggle 0.4s;
+    transition: 1s ease-in-out;
+}
+
+.main__button:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.main__button span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}

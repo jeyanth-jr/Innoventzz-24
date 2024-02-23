@@ -1,0 +1,29 @@
+.team {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 10rem;
+}
+
+.team__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.team__title {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 750px) {
+    .team {
+        padding: 5rem 2rem;
+        height: 100%;
+    }
+
+}

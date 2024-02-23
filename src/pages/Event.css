@@ -1,0 +1,136 @@
+.eventPage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.eventPage__back__container {
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+    width: 5rem;
+    height: 5rem;
+    z-index: 10;
+}
+
+.eventPage__back {
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.eventPage__container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.eventPage__details {
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.eventPage__title {
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.eventPage__para {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.eventPage__detail {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--primary-color);
+    padding: 1rem 0;
+}
+
+.eventPage__detail__title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.eventPage__detail__para {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.eventPage__coordinators {
+    max-width: 80rem;
+}
+
+.eventPage__btn {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 770px) {
+    .eventPage__back__container {
+
+        left: 3rem;
+        top: 3rem;
+
+    }
+
+    .eventPage__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 5rem;
+        padding: 10rem 3rem 0rem 3rem;
+    }
+
+    .eventPage__details .eventPage__coordinators {
+        width: 100%;
+    }
+
+    .eventPage__title {
+        font-size: 8rem;
+    }
+
+    .eventPage__para {
+        font-size: 2rem;
+    }
+
+    .eventPage__detail__title {
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .eventPage__detail__para {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .eventPage__btn {
+        position: absolute;
+        bottom: 4rem;
+
+    }
+
+}

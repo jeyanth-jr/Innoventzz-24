@@ -1,0 +1,38 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 10rem;
+}
+
+.contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+    height: 100%;
+}
+
+.contact__title {
+    font-size: 8rem;
+    text-transform: uppercase;
+    max-width: 80rem;
+    font-family: 'Monoton';
+    word-spacing: 0.5rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .contact {
+        padding: 5rem 2rem;
+    }
+
+    .contact__container {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .contact__title {
+        width: 60rem;
+    }
+
+}
