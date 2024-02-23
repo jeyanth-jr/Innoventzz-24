@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Innoventzz-24/static/css/main.ddac789d.css",
+    "main.js": "/Innoventzz-24/static/js/main.b3251356.js",
+    "static/media/img_1.jpg": "/Innoventzz-24/static/media/img_1.f406550ce6957e6ccff7.jpg",
+    "static/media/AI ALCHEMY.png": "/Innoventzz-24/static/media/AI ALCHEMY.ca45656d079a8042ee83.png",
+    "static/media/Kabilesh.jpg": "/Innoventzz-24/static/media/Kabilesh.f05f3adc83c757c507ce.jpg",
+    "static/media/TECHLOCK HOLMES.png": "/Innoventzz-24/static/media/TECHLOCK HOLMES.d19d4a883d34de26201b.png",
+    "static/media/FUSION FORUM.png": "/Innoventzz-24/static/media/FUSION FORUM.f20dad318f629dd6145f.png",
+    "static/media/CRYPTIC CONUNDRUMS.png": "/Innoventzz-24/static/media/CRYPTIC CONUNDRUMS.b42f356547d0635bf890.png",
+    "static/media/Sunil.jpg": "/Innoventzz-24/static/media/Sunil.d07c94ca2df9ec93a2f4.jpg",
+    "static/media/INTELLEXPO.png": "/Innoventzz-24/static/media/INTELLEXPO.e77d83e061a6de3c1110.png",
+    "static/media/Nikitha.jpg": "/Innoventzz-24/static/media/Nikitha.3ed2cf0a381b0daed1b0.jpg",
+    "static/media/IMPROMPTO.png": "/Innoventzz-24/static/media/IMPROMPTO.2ff2d16443e4e7c6b143.png",
+    "static/media/KIMI NO CODE.png": "/Innoventzz-24/static/media/KIMI NO CODE.7f65cb76a3deb128088f.png",
+    "static/media/ENIGMA FEST.png": "/Innoventzz-24/static/media/ENIGMA FEST.b51f17a37768397a8469.png",
+    "static/media/MANIFESTO MATRIX.png": "/Innoventzz-24/static/media/MANIFESTO MATRIX.a7fc8ae0ab359a5e69fd.png",
+    "static/media/Rissi.jpg": "/Innoventzz-24/static/media/Rissi.27e36d3b274472be890c.jpg",
+    "static/media/logo.png": "/Innoventzz-24/static/media/logo.cfe7a79c90b80e452273.png",
+    "static/media/Pradeepta.jpg": "/Innoventzz-24/static/media/Pradeepta.1e3ddf890a53dda214e1.jpg",
+    "static/media/Jay Shree.jpg": "/Innoventzz-24/static/media/Jay Shree.508c5e202b3dab6a6008.jpg",
+    "static/media/img_2.webp": "/Innoventzz-24/static/media/img_2.8ad02d5ba1ef0fedca56.webp",
+    "static/media/Revatthy.jpg": "/Innoventzz-24/static/media/Revatthy.eef4bda60bdbfa518dc2.jpg",
+    "static/media/img_4.webp": "/Innoventzz-24/static/media/img_4.bfba5364d030f50b4025.webp",
+    "index.html": "/Innoventzz-24/index.html",
+    "main.ddac789d.css.map": "/Innoventzz-24/static/css/main.ddac789d.css.map",
+    "main.b3251356.js.map": "/Innoventzz-24/static/js/main.b3251356.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddac789d.css",
+    "static/js/main.b3251356.js"
+  ]
+}
